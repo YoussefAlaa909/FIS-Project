@@ -1,4 +1,4 @@
-/* Reset / basics */
+/* Layout helpers */
 * {
     box-sizing: border-box;
     margin: 0;
@@ -13,7 +13,6 @@ body {
     line-height: 1.6;
 }
 
-/* Layout helpers */
 .container {
     max-width: 1100px;
     margin: 0 auto;
@@ -97,6 +96,11 @@ nav a.active {
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.06);
 }
 
+.card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
 .hero-box {
     background: #202553;
     color: #f5f6ff;
@@ -160,6 +164,10 @@ nav a.active {
 }
 
 /* Table */
+
+.table{
+    margin-top: 20px;
+}
 .table-wrapper {
     overflow-x: auto;
     margin-top: 10px;
@@ -172,7 +180,8 @@ table {
     min-width: 400px;
 }
 
-th, td {
+th,
+td {
     border: 1px solid #d7d7e0;
     padding: 8px 10px;
     text-align: left;
@@ -188,6 +197,9 @@ tr:nth-child(even) td {
 }
 
 /* Timeline (future page) */
+.timeline{
+margin-bottom: 20px;
+}
 .timeline-list {
     list-style: none;
     margin-top: 10px;
@@ -204,6 +216,10 @@ tr:nth-child(even) td {
     display: inline-block;
     font-weight: bold;
     margin-bottom: 5px;
+}
+
+.role{
+    margin-top: 20px;
 }
 
 /* Contact form */
@@ -259,4 +275,3 @@ footer {
     padding: 10px 0;
     font-size: 0.9rem;
 }
-
