@@ -90,7 +90,7 @@ nav a {
     text-decoration: none;
     padding: 6px 10px;
     border-radius: 4px;
-    font-size: 0.95rem;
+    font-size: 16px;
 }
 
 nav a:hover {
@@ -98,7 +98,7 @@ nav a:hover {
     color: #ffffff;
 }
 
-nav a:focus {
+nav a:active {
     background: #ffffff;
     color: #151837;
 }
