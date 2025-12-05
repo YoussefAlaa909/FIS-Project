@@ -16,80 +16,13 @@ body {
 .container {
     max-width: 1100px;
     margin: 0 auto;
-    padding: 0 20px 40px;
-}
-
-/* Header & navigation */
-header {
-    background: #151837;
-    color: white;
-    margin-bottom: 30px;
-    position: sticky;
-    top: 0;
-    z-index: 10;
-}
-
-.header-inner {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 15px 0;
-    flex-wrap: wrap;
-}
-
-.logo {
-    font-size: 1.4rem;
-    font-weight: bold;
-}
-
-nav {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 10px;
-
-}
-
-nav a {
-    color: #e5e7ff;
-    text-decoration: none;
-    padding: 6px 10px;
-    border-radius: 4px;
-    font-size: 0.95rem;
-    transition: background 0.2s, color 0.2s;
-}
-
-nav a:hover {
-    background: #2a2f66;
-    color: #ffffff;
-}
-
-nav a.active {
-    background: #ffffff;
-    color: #151837;
-}
-
-/* Hero section (home) */
-.hero {
-    display: grid;
-    grid-template-columns: minmax(0, 2fr) minmax(0, 1.4fr);
-    gap: 20px;
-    align-items: stretch;
-    margin-bottom: 30px;
-}
-
-.hero-text h2 {
-    font-size: 2rem;
-    margin-bottom: 15px;
-}
-
-.hero-text p {
-    margin-bottom: 10px;
+    padding-top: 80px;
 }
 
 /* Reusable card & grid */
 .grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    grid-template-columns: repeat(3, minmax(260px, 1fr));
     gap: 20px;
 }
 
@@ -101,7 +34,7 @@ nav a.active {
 }
 
 .transition {
-    transition: background 0.2s, transform 0.1s;
+    transition: 0.2s;
 }
 
 .transition:hover {
@@ -114,6 +47,78 @@ nav a.active {
 .card img {
     width: 100%;
     border-radius: 10px;
+}
+
+/* Page heading */
+.heading {
+    margin-bottom: 25px;
+}
+
+.heading h2 {
+    font-size: 1.8rem;
+    margin-bottom: 8px;
+}
+
+/* Header & navigation */
+header {
+    background: #151837;
+    color: white;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.header-inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 0;
+}
+
+.logo {
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+
+nav {
+    display: flex;
+    gap: 10px;
+}
+
+nav a {
+    color: #e5e7ff;
+    text-decoration: none;
+    padding: 6px 10px;
+    border-radius: 4px;
+    font-size: 0.95rem;
+}
+
+nav a:hover {
+    background: #2a2f66;
+    color: #ffffff;
+}
+
+nav a:focus {
+    background: #ffffff;
+    color: #151837;
+}
+
+/* Hero section (home) */
+.hero {
+    display: grid;
+    grid-template-columns: minmax(0, 2fr) minmax(0, 1.4fr);
+    gap: 20px;
+    align-items: stretch;
+    padding-bottom: 30px;
+}
+
+.hero-text h2 {
+    font-size: 2rem;
+    margin-bottom: 15px;
+}
+
+.hero-text p {
+    margin-bottom: 10px;
 }
 
 .hero-box {
@@ -155,15 +160,7 @@ nav a.active {
     transform: translateY(-1px);
 }
 
-/* Page heading */
-.page-heading {
-    margin-bottom: 25px;
-}
 
-.page-heading h2 {
-    font-size: 1.8rem;
-    margin-bottom: 8px;
-}
 
 /* Two-column layout on benefits page */
 .two-columns {
@@ -279,22 +276,13 @@ textarea:focus {
     box-shadow: 0 0 0 2px rgba(74, 92, 255, 0.2);
 }
 
-/* Notes */
-.note {
-    margin-top: 10px;
-    font-size: 0.95rem;
-    color: #555;
-}
-
-.small {
-    font-size: 0.85rem;
-}
 
 /* Footer */
 footer {
     background: #151837;
-    color: #ddd;
+    color: white;
     text-align: center;
+    margin-top: 50px;
     padding: 10px 0;
-    font-size: 0.9rem;
+    font-size: 16px;
 }
