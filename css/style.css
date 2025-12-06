@@ -271,6 +271,7 @@ label {
 
 .form-group input,
 textarea {
+    font-family: Arial, sans-serif;
     padding: 8px 10px;
     border-radius: 6px;
     border: 1px solid #c3c3d7;
