@@ -54,7 +54,8 @@ body {
     margin-top: 15px;
     padding: 10px 18px;
     border-radius: 6px;
-    background: #151837;
+    border: none;
+    background: #4a5cff;
     color: white;
     font-weight: bold;
     text-decoration: none;
@@ -62,7 +63,7 @@ body {
 }
 
 .btn:hover {
-    background: #4a5cff;
+    background: #000bbb;
 }
 
 
