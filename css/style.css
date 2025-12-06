@@ -1,4 +1,4 @@
-/* Layout helpers */
+/* Layout */
 * {
     box-sizing: border-box;
     margin: 0;
@@ -18,7 +18,7 @@ body {
     padding-top: 80px;
 }
 
-/* Reusable card & grid */
+/* card & grid */
 .grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -46,6 +46,23 @@ body {
     color: white;
     transform: translateY(-1px);
     transform: scale(105%);
+}
+
+/* Buttons */
+.btn {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 18px;
+    border-radius: 6px;
+    background: #151837;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.btn:hover {
+    background: #4a5cff;
 }
 
 
@@ -151,22 +168,7 @@ nav a:active {
     padding-left: 18px;
 }
 
-/* Buttons */
-.btn {
-    display: inline-block;
-    margin-top: 15px;
-    padding: 10px 18px;
-    border-radius: 6px;
-    background: #151837;
-    color: white;
-    font-weight: bold;
-    text-decoration: none;
-    transition: 0.5s;
-}
 
-.btn:hover {
-    background: #4a5cff;
-}
 
 /* ========================== */
 /* ========================== */
