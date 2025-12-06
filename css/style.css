@@ -239,10 +239,6 @@ th {
     margin-bottom: 5px;
 }
 
-.role {
-    margin-top: 20px;
-}
-
 /* ========================== */
 /* ========================== */
 /* ========================== */
@@ -254,19 +250,19 @@ th {
 }
 
 .contact-form {
-    display: grid;
+    display: flex;
+    flex-direction: column;
     gap: 15px;
-    margin-top: 10px;
-}
-
-label {
-    margin-bottom: 5px;
-    font-weight: bold;
 }
 
 .form-group {
     display: flex;
     flex-direction: column;
+}
+
+label {
+    margin-bottom: 5px;
+    font-weight: bold;
 }
 
 .form-group input,
@@ -278,11 +274,6 @@ textarea {
     font-size: 16px;
 }
 
-input:focus,
-textarea:focus {
-    border-color: #4a5cff;
-    box-shadow: 0 0 0 2px rgba(74, 92, 255, 0.2);
-}
 
 .Names li {
     list-style: none;
