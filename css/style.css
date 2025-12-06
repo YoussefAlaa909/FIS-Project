@@ -8,13 +8,12 @@
 body {
     font-family: Arial, sans-serif;
     margin: 0;
-    background: #f4f4f8;
-    color: #222;
+    background: #f4f4ff;
     line-height: 24px;
 }
 
 .container {
-    max-width: 1100px;
+    width: 1100px;
     margin: 0 auto;
     padding-top: 80px;
 }
@@ -27,10 +26,10 @@ body {
 }
 
 .card {
-    background: #ffffff;
+    background: white;
     border-radius: 10px;
     padding: 20px;
-    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.06);
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
 }
 
 .card img {
@@ -44,10 +43,11 @@ body {
 
 .transition:hover {
     background-color: #4a5cff;
+    color: white;
     transform: translateY(-1px);
     transform: scale(105%);
-    color: #ffffff;
 }
+
 
 /* Page heading */
 .heading {
@@ -73,6 +73,7 @@ header {
     z-index: 10;
 }
 
+
 .header-inner {
     display: flex;
     align-items: center;
@@ -91,7 +92,7 @@ nav {
 }
 
 nav a {
-    color: #e5e7ff;
+    color: white;
     text-decoration: none;
     padding: 6px 10px;
     border-radius: 4px;
@@ -100,12 +101,12 @@ nav a {
 
 nav a:hover {
     background: #2a2f66;
-    color: #ffffff;
+    color: white;
 }
 
 nav a:active {
-    background: #ffffff;
-    color: #151837;
+    background: white;
+    color: #2a2f66;
 }
 
 /* ========================== */
@@ -133,8 +134,8 @@ nav a:active {
 }
 
 .hero-box {
-    background: #202553;
-    color: #f5f6ff;
+    background: #151837;
+    color: white;
     border-radius: 10px;
     padding: 20px;
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
@@ -156,18 +157,15 @@ nav a:active {
     margin-top: 15px;
     padding: 10px 18px;
     border-radius: 6px;
-    background: #4a5cff;
+    background: #151837;
     color: white;
     font-weight: bold;
     text-decoration: none;
-    border: none;
-    cursor: pointer;
     transition: 0.5s;
 }
 
 .btn:hover {
-    background: #303aad;
-    transform: translateY(-1px);
+    background: #4a5cff;
 }
 
 /* ========================== */
@@ -175,10 +173,9 @@ nav a:active {
 /* ========================== */
 
 
-
 /* benefits page  */
 /* Two-column layout */
-.two-columns {
+.two-cards {
     display: flex;
 }
 
@@ -205,17 +202,19 @@ table {
     min-width: 400px;
 }
 
+th {
+    background: #f4f4ff;
+    font-weight: bold;
+}
+
 th,
 td {
-    border: 1px solid #d7d7e0;
+    border: 1px solid;
     padding: 8px 10px;
     text-align: left;
 }
 
-th {
-    background: #ebecff;
-    font-weight: bold;
-}
+
 
 /* Timeline (future page) */
 .timeline {
@@ -270,7 +269,7 @@ textarea {
     font-family: Arial, sans-serif;
     padding: 8px 10px;
     border-radius: 6px;
-    border: 1px solid #c3c3d7;
+    border: 1px solid;
     font-size: 16px;
 }
 
