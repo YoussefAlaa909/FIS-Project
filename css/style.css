@@ -217,30 +217,6 @@ td {
     text-align: left;
 }
 
-
-
-/* Timeline (future page) */
-.timeline {
-    margin-bottom: 20px;
-}
-
-.timeline-list {
-    list-style: none;
-    margin-top: 10px;
-}
-
-.timeline-list li {
-    padding: 10px 0 10px 10px;
-    margin: 10px 0 0 10px;
-    border-left: 3px solid #4a5cff;
-}
-
-.timeline-list .year {
-    display: inline-block;
-    font-weight: bold;
-    margin-bottom: 5px;
-}
-
 /* ========================== */
 /* ========================== */
 /* ========================== */
