@@ -1,0 +1,66 @@
+ModelID,AI_Model,Industry,Model_Type,Accuracy,Training_Cost_K,Deployment_Year,Region
+1,GPT-Med,Healthcare,NLP,92,450,2023,North America
+2,VisionScan,Healthcare,CV,89,380,2022,Europe
+3,FinPredict,Finance,Predictive,91,300,2021,Asia
+4,RetailBot,Retail,NLP,87,200,2020,North America
+5,SmartTutor,Education,NLP,90,150,2022,Europe
+6,LoanGuard,Finance,Predictive,93,410,2023,North America
+7,ShopVision,Retail,CV,88,260,2021,Asia
+8,HealthEye,Healthcare,CV,94,500,2024,North America
+9,CreditAI,Finance,NLP,90,330,2022,Europe
+10,TeachBot,Education,NLP,88,140,2021,Asia
+11,MarketSense,Retail,Predictive,86,210,2020,Europe
+12,DiagnoNet,Healthcare,NLP,91,420,2023,Asia
+13,FinVision,Finance,CV,89,350,2022,North America
+14,LearnSmart,Education,Predictive,87,170,2020,Europe
+15,SalesAI,Retail,NLP,88,230,2021,North America
+16,PatientCare,Healthcare,Predictive,92,460,2024,Europe
+17,PayGuard,Finance,Predictive,94,480,2024,Asia
+18,ClassifyAI,Education,CV,85,160,2019,Asia
+19,StoreSense,Retail,Predictive,87,220,2020,Asia
+20,MediScan,Healthcare,CV,90,410,2021,North America
+21,FinanceBot,Finance,NLP,89,290,2020,Europe
+22,StudyMate,Education,NLP,91,180,2023,North America
+23,ShopAI,Retail,NLP,86,210,2019,Europe
+24,HeartPredict,Healthcare,Predictive,93,470,2024,Asia
+25,StockVision,Finance,CV,92,390,2023,North America
+26,LearnVision,Education,CV,88,200,2022,Europe
+27,RetailForecast,Retail,Predictive,90,260,2023,Asia
+28,ClinicalBot,Healthcare,NLP,91,430,2022,Europe
+29,RiskAnalyzer,Finance,Predictive,95,500,2024,North America
+30,VirtualTutor,Education,NLP,89,175,2021,Asia
+31,CustomerAI,Retail,NLP,88,225,2022,North America
+32,MediVision,Healthcare,CV,92,480,2023,Asia
+33,BudgetAI,Finance,NLP,87,270,2020,Europe
+34,ExamPredict,Education,Predictive,90,190,2023,North America
+35,ShelfVision,Retail,CV,89,250,2022,Europe
+36,CarePlus,Healthcare,Predictive,94,510,2024,North America
+37,WealthBot,Finance,NLP,91,320,2022,Asia
+38,SmartClass,Education,NLP,86,155,2019,Europe
+39,TrendRetail,Retail,Predictive,88,235,2021,Asia
+40,NeuroScan,Healthcare,CV,95,520,2024,Europe
+41,LoanAssist,Finance,NLP,89,300,2021,North America
+42,AI-Tutor,Education,NLP,92,185,2024,Asia
+43,BuySmart,Retail,NLP,87,215,2020,Europe
+44,HealthPredict,Healthcare,Predictive,93,490,2023,North America
+45,TradeVision,Finance,CV,90,360,2022,Asia
+46,StudyVision,Education,CV,88,195,2021,North America
+47,SmartStore,Retail,Predictive,91,270,2023,Europe
+48,MedAI,Healthcare,NLP,92,440,2022,Asia
+49,FinSecure,Finance,Predictive,94,510,2024,Europe
+50,TeachAI,Education,NLP,89,165,2020,Asia
+51,RetailMind,Retail,NLP,88,225,2021,North America
+52,VisionHealth,Healthcare,CV,93,505,2024,North America
+53,PayPredict,Finance,Predictive,92,430,2023,Asia
+54,LearnPredict,Education,Predictive,90,200,2022,Europe
+55,ShopAnalytics,Retail,Predictive,89,255,2022,Asia
+56,MediBot,Healthcare,NLP,91,420,2021,Europe
+57,FinanceVision,Finance,CV,90,370,2022,North America
+58,SmartLearn,Education,NLP,87,160,2019,Asia
+59,CustomerPredict,Retail,Predictive,92,280,2024,North America
+60,HealthMonitor,Healthcare,Predictive,94,515,2024,Asia
+61,CreditVision,Finance,CV,91,385,2023,Europe
+62,VirtualClass,Education,NLP,88,170,2021,Europe
+63,RetailVision,Retail,CV,90,265,2023,North America
+64,ClinicalPredict,Healthcare,Predictive,95,530,2024,Europe
+65,MoneyMind,Finance,NLP,92,340,2023,Asia
